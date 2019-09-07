@@ -1,0 +1,271 @@
+body{
+    background-color:red;
+}
+
+/* header */
+
+.palo-alto{
+    
+    color:#333333;
+    font-family: Lato;
+font-size: 42px;
+font-weight: 700;
+font-style: italic;
+line-height: 25px;
+margin-top: 80px;
+
+}
+
+.navbar.navbar-expand-lg.justify-content-end a{
+color: #333333;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+line-height: 25px;
+text-transform: uppercase;
+margin-top: 89px;
+
+}
+
+.navbar.navbar-expand-lg.justify-content-end img{
+width: 16px;
+height: 16px;
+background-color: #333333;
+margin-top: 102px;
+margin-left: 2em;
+}
+
+/* first section */
+.first-section{
+    width: 952px;
+height: 587px;
+box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+margin-left: 224px;
+margin-top: 192px;
+margin-bottom: 3em;
+
+}
+.back-tra{
+    background-color: #5c6bc0;
+    margin-left: 876px;
+    position: absolute;
+margin-top: 20px;
+
+}
+.travel{
+
+color: #ffffff;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+padding-left: 11px;
+padding-right: 12px;
+
+
+
+}
+
+.data-back{
+    margin-top: 58px;
+    margin-left: 98px;
+}
+
+.data{
+    width: 42px;
+height: 15px;
+color: #bdbdbd;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+line-height: 50px;
+
+}
+
+.top-letter{
+    width: 726px;
+height: 87px;
+color: #000000;
+font-family: Lato;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+margin-top: 97px;
+margin-left: 97px;
+margin-right: 129px;
+}
+.top-paraph{
+    width: 742px;
+height: 168px;
+opacity: 0.8;
+color: #000000;
+font-family: Lato;
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 84px;
+margin-left: 97px;
+margin-right: 113px;
+
+}
+
+.read{
+    width: 122px;
+    height: 17px;
+    color: #5c6bc0;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase; 
+    margin-top: 55px;
+    margin-left: 98px;   
+}
+.twit{
+    width: 196px;
+height: 15px;
+opacity: 0.3;
+color: #000000;
+font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+line-height: 50px;
+margin-top: -20px;
+margin-left: 658px;   
+
+}
+
+
+
+/*pirmo footer pradžia */
+.s-section{
+    text-align: center;
+    margin-top: 4em;
+margin-bottom: 5em;
+
+    
+}
+
+.first-footer h2{
+    color: #2d3033;
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.first-footer p{
+color:#343639;
+font-family: "Raleway";
+font-size: 13px;
+line-height: 21px;
+text-transform: uppercase;
+margin-bottom: 2.9em;
+}
+
+.donwload-here{
+    background-color: #e84545;
+    color: #f9d0d0;
+ padding: 10px 40px;
+ text-transform: uppercase;
+
+
+ 
+ }
+/*pirmo footer pabaiga */
+.first-footer{
+background-color: #5c6bc0;
+
+}
+.alto{
+    font-size: 36px;
+    color: #4a569a;
+    font-family: Lato;
+    font-style: italic;
+    margin-left: 633px;
+    margin-top: 67px;
+  
+}
+.bottom-menu{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 31em;
+}
+.bottom-menu img{
+    color: white;
+    
+}
+
+/*antro footer pradžia */
+.second-footer{
+
+width: 1400px;
+height: 85px;
+background-color: #5c6bc0;
+}
+.second-footer h3{
+    width: 730px;
+    padding-top: 15px;
+    opacity: 0.4;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin-left: 27em;
+    border-top: 2px solid #5665b4;
+}
+
+/*antro footer pabaiga */
+/*bottom pradžia */
+
+.last{
+    background-color: #313454;
+    text-align: center;
+    padding-top: 1em;
+    
+ }
+ 
+ .last h3{
+     color: #5a5b6b;
+    
+ }
+ .last h4{
+     color: #afb0bc;
+     padding-bottom: 2em;
+ }
+ .newsletter{
+     margin-right: 3;
+ }
+ /*bottom pabaiga */
+/*trečio footer pradžia */
+.third-footer{
+background-color: #5c6bc0;
+text-align: center;
+padding-left: 29em;
+height: 150px;
+padding-top: 2em;
+}
+.third-footer h3{
+    border-top: 2px solid #5665b4;
+    color:#9da6d9;
+    font-size: 13px;
+    padding-top: 2em;
+  
+}
+.third-footer h4{
+    color: white;
+    font-size: 14px;
+    padding-top: 2em;
+padding-left: 10px;    
+
+}
+.cons{
+    color: white;
+    font-size: 30px;
+    margin-right: 15em; 
+   
+
+}
