@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Game</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>World of forest</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li></li> <a href="index.html">Home</a></li>
+                    <li><a href="Species.html">Species</a></li>
+                    <li class="oMegaul"><a href="Game.html">Game</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="timer">
+        Tau liko: <span></span>
+    </div>
+    <div class="grid">
+        <div id="quiz">
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Klausimas 1 of 10</p>
+            </footer>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="question.js"></script>
+</body>
+
+</html>

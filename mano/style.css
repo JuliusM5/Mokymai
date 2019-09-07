@@ -1,0 +1,209 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+    background-color: rgb(212, 245, 212);
+}
+nav{
+    margin-bottom: 5em;
+}
+/*global */
+.container{
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+}
+/*header*/
+
+header{
+    background: rgb(135, 182, 135);
+    color: white;
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: #097e47 3px solid;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+header li{
+    display: inline;
+    padding: 0 20 0 20;
+}
+header.branding{
+    float: left;
+}
+header.branding h1{
+    margin:0;
+}
+header nav{
+    float: right;
+margin-top: -5em;
+margin-right: 15em;
+}
+
+/* Button log in pradžia */
+
+.button{
+    margin-left: 3em;
+    text-align: center;
+    background: #357a5a;
+    color: white;
+    padding: 0.5em;
+border-radius: 10%;    
+font-size: 1em;
+}
+.modal-container{
+    text-align: center;
+    
+}
+.modal-container p{
+    color:rgb(80, 156, 80);
+    font-size: 1.5em;
+}
+.email{
+    padding-right: 9em;
+}
+.password{
+    padding-right: 7em;
+}
+.Login{
+    background: #357a5a;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10%;    
+    font-size: 1em;
+}
+.forgotten{
+    color: #097e47;
+    text-decoration: none;
+}
+.fas.fa-tree{
+  
+color: #097e47;
+font-size: 4em;
+}
+/* Button log in pabaiga */
+
+/* dropdown menu */
+
+.dropdown{
+position: absolute;
+   margin-left: -3em;
+   margin-top: 2.2em; 
+
+}
+.fas.fa-bars{
+    position: relative;
+    color: #097e47;
+    
+   
+}
+.fas.fa-times{
+    position: relative;
+    display: none;
+}
+
+
+.bar ul{
+    position: absolute;
+    transform-origin:top;
+    transform: perspective(1000px) rotateX(-90deg);
+    transition:0.5s;
+    margin-left: -1.5em;
+}
+.bar ul.active{
+    transform: perspective(1000px)rotateX(0deg)
+}
+.bar ul li{
+    list-style: none;
+}
+.bar ul li a{
+    display: block;
+    padding: 10px;
+    text-align: 10px;
+    text-decoration: none;
+    background: #357a5a;
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, .2)
+}
+
+/* dropdown menu */
+/* Questions */
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    
+}
+ 
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: rgb(49, 145, 89);
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    
+}
+ 
+#score {
+    color: rgb(47, 145, 91);
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: rgb(30, 146, 30);
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+ 
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: green;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: rgb(53, 155, 92);
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+#timer{
+    background-color: green;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 19.5em;
+    position: absolute;
+    margin-left: 40em;
+
+}
+
+/* Questions */
