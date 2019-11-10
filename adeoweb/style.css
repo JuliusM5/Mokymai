@@ -33,6 +33,11 @@ padding-top: 17px;
 padding-left: 91px;
 
 }
+.first-nav a:hover{
+    text-decoration: none;
+    color: #ffffff;
+
+}
 .first-nav a{
     color: #adcde8;
     
@@ -49,7 +54,9 @@ text-transform: uppercase;
 padding-left: 45em;
 margin-left: 11em;
 margin-top: -12px;
+
 }
+
 .second-nav{
     width: 100em;
 height: 12px;
@@ -61,6 +68,10 @@ line-height: 22px;
 text-transform: uppercase;
 
 }
+.second-nav a:hover {
+    color: #21292f;
+    text-decoration:none
+  }
 .second-nav a{
 color: #ffffff;
 
@@ -89,6 +100,17 @@ background-color: #448ccb;
     margin-top: 1em;
 
   }
+  /* rodykle */
+  .dropdown-content:before {
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 30px solid #1e2123;
+      position: absolute;
+      margin: -8px 0px 0px 57px;
+  }
   
   .dropdown-content a {
     color:#ffffff;
@@ -115,12 +137,12 @@ width: 320px;
 height: 550px;
 border: 3px solid #448ccb;
 background-color: #448ccb;
+
 }
 
 .column-left h2{
 width: 52px;
 color: #ffffff;
-font-family: 'Francois One', sans-serif;
 font-size: 41px;
 font-weight: 400;
 text-transform: uppercase;
@@ -128,6 +150,7 @@ padding-top: 61px;
 padding-bottom: 40px;
 margin-left: 50px;
 border-bottom: 8px solid #ffffff;
+font-weight: bold;
 }
 .column-left p{
     width: 180px;
@@ -196,7 +219,6 @@ position: absolute;
 .left-text h2{
 font-weight: bold;   
 color: #ffffff;
-font-family: 'Francois One', sans-serif;;
 padding-top: 101px;
 padding-left: 91px;
 }
@@ -214,7 +236,6 @@ margin-left: 91px;
 .right-text h3{
     width: 115px;
 color: #ffffff;
-font-family: 'Francois One', sans-serif;;
 text-transform: uppercase;
 margin-top: 103px;
 margin-left: 91px;
@@ -266,8 +287,7 @@ font-family: "Open Sans";
 font-size: 14px;
 font-style: italic;
 line-height: 25px;
-border-bottom: 1px solid black;
-width: 278px;
+width: 291px;
 }
 .item-stuff{
     margin-top: 40px;
@@ -386,6 +406,10 @@ margin-top: 83px;
 padding-left: 20px;
 font-weight: bold;
 }
+.footer-menu a:hover {
+    color: #ffffff;
+    text-decoration:none
+  }
 .footer-menu p{
     /* Style for "© DEMOSITE" */
 width: 276px;
@@ -399,3 +423,596 @@ font-weight: 700;
 margin-left: 141px;
 }
 /* footer end */
+/* responsive */
+@media screen and (min-width: 320px)and (max-width: 375px) {
+.first-rectangle{
+    width: 100%;
+ 
+}
+.first-nav{
+    width: 100%;
+    margin-left: -73px;
+}
+.first-nav a {
+    font-size: 8px;
+}
+.demo-site h2{
+    margin-left: -60px;
+    font-size: 24px;
+}
+.second-nav{
+    margin-left: -46em;
+    margin-top: 30px;
+    font-size: 7px;
+}
+.dropbtn{
+    margin-top: -2px;
+}
+.column-left {
+        margin-left: 20px;
+        width: 292px;
+}
+.column-right h3 {
+    padding-top: 5px;
+    padding-left: 41px; 
+}
+.column-right p {
+    width: 264px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 48px;
+    height: 121px
+} 
+.column-right{
+    margin-left: -8px;
+    width: 326px;
+    height: 588px;
+}
+.column-right img {
+    width: 326px
+}
+.left-text{
+    margin-left: -68px;
+}
+.left-text h2{
+    font-size: 29px;
+}
+.left-text p {
+    width: 300px;
+}
+.second-rectangle{
+    width: 305px;
+    height: 1004px;
+
+}
+.right-text h3 {
+    margin-top: 21px;
+    margin-left: 31px;
+}
+.right-text p {
+    width: 294px;
+    margin-left: 25px
+}
+.third-rectangle {
+    margin-left: -3px;
+    margin-top: 38em;
+    width: 306px;
+    height: 436px;
+    padding-left: 1em;
+}
+.third-rectangle p{
+    width: 263px;
+}
+.forth-rectangle p{
+    width: 289px;
+    margin-left: 11px;
+}
+.forth-rectangle input {
+    width: 303px;
+}
+.forth-rectangle textarea {
+    width: 303px;
+}
+.five-rectangle {
+    width: 303px;
+    height: 303px;
+}
+.five-rectangle p {
+    width: 316px;
+    padding-left: 4px;
+}
+.footer-menu {
+    margin-left: -14px;
+    margin-top: 119px;
+    font-size: 12px;
+}
+}
+@media screen and (min-width: 376px)and (max-width: 500px) {
+    .first-rectangle{
+        width: 100%;
+     
+    }
+    .first-nav{
+        width: 100%;
+        margin-left: -73px;
+    }
+    .first-nav a {
+        font-size: 10px;
+    }
+    .demo-site h2{
+        margin-left: -60px;
+        font-size: 24px;
+    }
+    .second-nav{
+        margin-left: -46em;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    .dropbtn{
+        margin-top: -2px;
+    }
+    .column-left {
+            margin-left: 51px;
+            width: 292px;
+    }
+    .column-right h3 {
+        padding-top: 5px;
+        padding-left: 41px; 
+    }
+    .column-right p {
+        width: 264px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-left: 48px;
+        height: 121px
+    } 
+    .column-right{
+        margin-left: 32px;
+        width: 326px;
+        height: 588px;
+    }
+    .column-right img {
+        width: 326px
+    }
+    .left-text{
+        margin-left: -68px;
+    }
+    .left-text h2{
+        font-size: 29px;
+    }
+    .left-text p {
+        width: 300px;
+    }
+    .second-rectangle{
+        width: 305px;
+        height: 1004px;
+        margin-left: 27px;
+    
+    }
+    .right-text h3 {
+        margin-top: 21px;
+        margin-left: 31px;
+    }
+    .right-text p {
+        width: 294px;
+        margin-left: 25px
+    }
+    .third-rectangle {
+        margin-left: 26px;
+        margin-top: 38em;
+        width: 306px;
+        height: 436px;
+        padding-left: 1em;
+    }
+    .third-rectangle p{
+        width: 263px;
+    }
+    .forth-rectangle p{
+        width: 289px;
+        margin-left: 45px;
+    }
+    .forth-rectangle input {
+        width: 303px;
+    }
+    .forth-rectangle textarea {
+        width: 303px;
+    }
+    .forth-rectangle form {
+        margin-left: 27px;
+    }
+    .five-rectangle {
+        width: 303px;
+        height: 303px;
+        margin-left: 27px;
+
+    }
+    .five-rectangle p {
+        width: 316px;
+        padding-left: 4px;
+    }
+    .footer-menu {
+        margin-left: -14px;
+        margin-top: 119px;
+        font-size: 12px;
+    }
+    }
+    @media screen and (min-width: 501px)and (max-width: 700px) {
+        .first-rectangle{
+            width: 100%;
+         
+        }
+        .first-nav{
+            width: 100%;
+            margin-left: -89px;
+        }
+        .first-nav nav {
+            font-size: 15px;
+            width: 582px;
+        }
+        .first-nav a {
+            font-size: 15px;
+        }
+        .demo-site h2{
+            margin-left: -60px;
+            font-size: 24px;
+        }
+        .second-nav{
+            margin-left: -45.3em;
+            margin-top: 30px;
+            font-size: 15px;
+        }
+        .dropbtn{
+            margin-top: -2px;
+        }
+        .column-left {
+                margin-left:107px;
+                width: 292px;
+        }
+        .column-right h3 {
+            padding-top: 5px;
+            padding-left: 41px; 
+        }
+        .column-right p {
+            width: 264px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            padding-left: 48px;
+            height: 121px
+        } 
+        .column-right{
+            margin-left: 88px;
+            width: 326px;
+            height: 588px;
+        }
+        .column-right img {
+            width: 326px
+        }
+        .left-text{
+            margin-left: -68px;
+        }
+        .left-text h2{
+            font-size: 29px;
+        }
+        .left-text p {
+            width: 300px;
+        }
+        .second-rectangle{
+            width: 305px;
+            height: 1004px;
+            margin-left: 81px;
+        
+        }
+        .right-text h3 {
+            margin-top: 21px;
+            margin-left: 31px;
+        }
+        .right-text p {
+            width: 294px;
+            margin-left: 25px
+        }
+        .third-rectangle {
+            margin-left: 80px;
+            margin-top: 38em;
+            width: 306px;
+            height: 436px;
+            padding-left: 1em;
+        }
+        .third-rectangle p{
+            width: 263px;
+        }
+        .forth-rectangle p{
+            width: 360px;
+    margin-left: 75px;
+    font-size: 23px;
+        }
+        .forth-rectangle input {
+            width: 428px;   
+        }
+        .forth-rectangle textarea {
+            width:428px;
+        }
+        .forth-rectangle form {
+            margin-left: 38px;
+        }
+        .five-rectangle {
+            width:428px;
+            height: 303px;
+            margin-left: 38px;
+    
+        }
+        .five-rectangle p {
+            width: 400px;
+    padding-left: 27px;
+        }
+        .footer-menu {
+            margin-left: 2px;
+            margin-top: 119px;
+            font-size: 17px
+        }
+    }
+    @media screen and (min-width: 701px)and (max-width: 900px) {
+        .first-rectangle{
+            width: 100%;
+         
+        }
+        .first-nav{
+            width: 100%;
+            margin-left: -11px;
+        }
+        .first-nav nav {
+            font-size: 15px;
+            width: 582px;
+        }
+        .first-nav a {
+            font-size: 15px;
+        }
+        .demo-site h2{
+            margin-left: -60px;
+            font-size: 24px;
+        }
+        .second-nav{
+            margin-left: -43.3em;
+            margin-top: 30px;
+            font-size: 21px;
+        }
+        .dropbtn{
+            margin-top: -2px;
+        }
+        .column-left {
+                margin-left:107px;
+                width: 501px;
+        }
+        #myBtn{
+            margin-left: 272px;
+
+        }
+        .column-right h3 {
+            padding-top: 5px;
+            padding-left: 41px; 
+        }
+        .column-right p {
+            width: 403px;;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            padding-left: 48px;
+            height: 121px
+        } 
+        .column-right{
+            margin-left:107px;
+            width: 501px;
+            height: 588px;
+        }
+        .column-right img {
+           width: 501px;
+        }
+        .left-text{
+            margin-left: -68px;
+        }
+        .left-text h2{
+            font-size: 29px;
+        }
+        .left-text p {
+            width: 501px;;
+        }
+        .second-rectangle{
+            width: 501px;
+            height: 1004px;
+            margin-left: 81px;
+        
+        }
+        .right-text h3 {
+            margin-top: 21px;
+            margin-left: 31px;
+        }
+        .right-text p {
+            width: 501px;
+            margin-left: 25px
+        }
+        .third-rectangle {
+            margin-left: 80px;
+            margin-top: 38em;
+            width: 503px;
+            height: 436px;
+            padding-left: 1em;
+        }
+        .third-rectangle p{
+            width: 401px;
+        }
+        .forth-rectangle p{
+            width: 501px;
+    margin-left: 75px;
+    font-size: 23px;
+        }
+        .forth-rectangle input {
+            width: 503px;
+   
+        }
+        .forth-rectangle textarea {
+            width: 503px;
+
+        }
+        .forth-rectangle form {
+            margin-left: 38px;
+        }
+        .five-rectangle {
+            width: 503px;
+
+            height: 303px;
+            margin-left: 38px;
+    
+        }
+        .five-rectangle p {
+            width: 503px;
+
+    padding-left: 27px;
+        }
+        .footer-menu {
+            margin-left: 20px;
+            margin-top: 119px;
+            font-size: 19px
+        }
+    }
+    @media screen and (min-width: 901px)and (max-width: 1000px) {
+        .first-nav nav{
+            font-size: 24px;
+            width: 100%;
+        padding-left: 56px;
+        }
+        .second-nav{
+            font-size: 29px;
+            margin-left: -43em;
+    margin-top: 1em;
+        }
+        .column-left {          
+            margin-left: 41px;
+            }
+            .column-right img {
+                width: 508px;
+            }
+
+            .column-right {
+                margin-top: -550px;
+                margin-left: 375px;
+    }
+    .column-right p {
+              
+        width: 508px;
+}
+.second-rectangle{
+    width: 100%;
+    height: 100%;
+}
+.left-text{
+    margin-left: -31px;
+}
+.right-text p {
+    width: 410px;
+    }
+    .third-rectangle {
+        width: 438px;
+        height: 400px;
+        margin-left: 443px;
+}
+.third-rectangle h3 {
+    padding-left: 15px; 
+
+}
+
+.third-rectangle h4 {
+    padding-left: 15px; 
+
+}
+.third-rectangle p {
+padding-left: 15px; 
+width: 310px;
+}
+.forth-rectangle p {
+    width: 773px;
+    font-size: 23px;
+    line-height: 40px;
+    }
+    .forth-rectangle input {
+        width: 55.3em;
+    }
+    .forth-rectangle textarea {
+        width: 55.3em;
+    }
+    .five-rectangle {
+        width: 100%;
+        height: 100%;
+    }
+.footer-menu{
+    font-size: 28px;
+}
+.five-rectangle p{
+    width: 853px;
+padding-top: 40px;
+    padding-left: 58px;
+}
+.dropdown-content{
+margin-left: -1em;
+margin-top: 12px;
+}
+    }
+    @media screen and (min-width: 1001px)and (max-width: 1200px) {
+        .second-nav nav{
+            margin-left: -23em;
+        }
+        .column-right {
+            background-color: #d7d7d7;
+            margin-top: -550px;
+            margin-left: 273px;
+            width: 50%;
+    }
+    .column-right {
+        background-color: #d7d7d7;
+        margin-top: -550px;
+        margin-left: 454px;
+        width: 50%;
+    }
+    .column-right p {
+        width: 100%;
+    }
+
+.right-text p {
+    width: 516px;
+}
+.column-right img {
+    width: 100%;
+}
+.second-rectangle {
+    width: 100%;
+    height: 100%;
+    }
+    .third-rectangle  {
+        width: 495px;
+        height: 100%;
+}
+.forth-rectangle  {
+margin-top: 4em;
+}
+.forth-rectangle p {
+    width: 100%;
+    height: 241px;
+    }
+    .forth-rectangle form {
+        
+        margin-left: 6em;
+}
+.five-rectangle {
+    width: 100%;
+    height: 100%;
+    }
+    .five-rectangle p {
+        width: 850px;
+    }
+    .footer-menu nav{
+        font-size: 28px;
+        
+    }
+}
+/* responsive end */
